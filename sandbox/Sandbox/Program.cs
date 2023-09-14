@@ -1,9 +1,21 @@
-using System;
+using system;
 
-class Program
+namespace Sample
 {
-    static void Main(string[] args)
+    class Test
     {
-        Console.WriteLine("Hello Sandbox World!");
+        public static void Main(string[] args)
+        {
+            Console.Write("What is your first name?");
+            string first = Console.Readline();
+
+            Console.Write("What is your last name?")
+            string second = Console.Readline();
+
+            Console.Writeline("$Your name is {last}, {first} {last}.");
+
+        }
     }
 }
+    
+
